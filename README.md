@@ -52,18 +52,18 @@ If you are an observer well above, I mix 2 tokens, the first one from JWT itself
 ```jsx
 
  async function Coupon(code){
-			var auth = localStorage.getItem('Autorizacao') // -> Token of logged in user
-			var cod = cryptr.encrypt(code)
-			var method = cryptr.encrypt("coupon")
-			var token = `${auth}YOUR-SEPARATOR${cod}YOUR-SEPARATOR${method}`
-			const formData = new URLSearchParams();
-			formData.append('token', token);
-			const res = await fetch('/api/post/code', {
-				method: 'POST',
-				body: formData
-			  })
-			  const json = await res.json()
-			  return json
+	var auth = localStorage.getItem('Autorizacao') // -> Token of logged in user
+	var cod = cryptr.encrypt(code)
+	var method = cryptr.encrypt("coupon")
+	var token = `${auth}YOUR-SEPARATOR${cod}YOUR-SEPARATOR${method}`
+	const formData = new URLSearchParams();
+	formData.append('token', token);
+	const res = await fetch('/api/post/code', {
+		method: 'POST',
+		body: formData
+	  })
+	  const json = await res.json()
+	  return json
 		}
 
 ```
