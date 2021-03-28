@@ -9,7 +9,7 @@ React is a JavaScript library for building user interfaces.
 
 To work properly you must do this*:
 
-* Configure the [Keys ](https://reactjs.org/docs/getting-started.html#online-playgrounds) according to the server..
+* Configure the [Keys ](https://github.com/skillerm/client-pbnext/blob/main/next.config.js) according to the server..
 * [Start the server](https://github.com/skillerm/server-pbnext)
 
 I recommend using and starting the project using Visual Studio code, if there is any problem, identify the error using the console provided in it.
