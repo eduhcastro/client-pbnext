@@ -1,0 +1,45 @@
+{
+  "name": "pbnext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "dependencies": {
+    "@aws-amplify/ui-components": "^0.10.0",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.4.1",
+    "cookie-cutter": "^0.2.0",
+    "cookies": "^0.8.0",
+    "cryptr": "^6.0.2",
+    "database-js": "^3.0.10",
+    "database-js-json": "^1.2.1",
+    "dgram": "^1.0.1",
+    "docker-compose": "^0.23.6",
+    "dom-parser": "^0.1.6",
+    "js-cookie": "^2.2.1",
+    "jsdom": "^16.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "next": "10.0.5",
+    "next-auth": "^3.5.1",
+    "nextjs-redirect": "^5.0.0",
+    "pg": "^8.5.1",
+    "pg-promise": "^10.9.0",
+    "pool": "^0.4.1",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.28.0",
+    "secure-web-storage": "^1.0.2"
+  }
+}
