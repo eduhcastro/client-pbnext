@@ -1,9 +1,12 @@
 # [Client PBNEXT](https://reactjs.org/) &middot;
 
-React is a JavaScript library for building user interfaces.
+Website for PointBlank 3.24++ 
 
 * **Declarative:** This site was on the NextJS platform, not yet 100%.
 * **Understand:** This still needs to be improved, I used this project for my studies, good luck. This is not yet 100% and it is not meant to be. Use this as a way to learn, innovate, any contribution is welcome.
+* **Accounts data:** If you pay attention, the data for all accounts is in TypeScript files.
+My thought would be, make a script that runs 24 hours a day, at 23 hours he always updated these files.
+(I haven't done that yet).
 
 ## Installation and Initialization
 
